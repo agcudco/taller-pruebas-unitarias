@@ -22,7 +22,7 @@ Simular 100 usuarios concurrentes realizando eliminaciones
 * Demostrar el problema antes de implementar validaciones
 * Medir impacto en performance después de las correcciones
 
-## ⚠️ **Problemas Críticos a Resolver**
+## **Problemas Críticos a Resolver**
 
 | Problema | Microservicio | Consecuencia | Estado Inicial |
 |----------|---------------|--------------|----------------|
@@ -33,7 +33,7 @@ Simular 100 usuarios concurrentes realizando eliminaciones
 | **Doble gasto en operaciones concurrentes** | Ambos microservicios | Saldos negativos no detectados | ❌ Sin bloqueos |
 | **Auditoría desincronizada** | Sistema completo | Imposible rastrear operaciones | ❌ Logs separados |
 
-## 🎯 **Objetivos de las Pruebas Unitarias**
+## **Objetivos de las Pruebas Unitarias**
 
 | Tipo de Prueba | Microservicio | Validación Requerida |
 |----------------|---------------|----------------------|
@@ -43,7 +43,7 @@ Simular 100 usuarios concurrentes realizando eliminaciones
 | **Pruebas de resiliencia** | Ambos | Comportamiento ante fallos del otro servicio |
 | **Pruebas de idempotencia** | Ambos | Múltiples llamadas con mismo efecto |
 
-## 📊 **Métricas de Validación**
+## **Métricas de Validación**
 
 | Métrica | Valor Antes | Valor Objetivo | Herramienta |
 |---------|-------------|----------------|-------------|
